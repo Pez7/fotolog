@@ -23,7 +23,7 @@ i.setAttribute("arial-hidden", "true");
 
 //Ahora transformaremos el nombre a noto texto
 
-var nodoNombre = document.createTextNode("nombreFF" + "escribió:");
+var nodoNombre = document.createTextNode(nombreFF + " escribió:");
 var nodoPosteo = document.createTextNode(contenidoFF);
 
 // Adignaremos padres a nodos creados
